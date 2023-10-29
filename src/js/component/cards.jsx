@@ -10,8 +10,8 @@ const Cards = ()=>{
                 <div className="card shadow-sm border-2">
                 <img src="https://placeholder.shopfinejewelry.com/500x325"/>
                 <div className="card-body">
-                    <h3 className="text-primary">Card Title</h3>
-                    <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <h3 className="text-center">Card Title</h3>
+                    <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
                 </div>
                 <div>
@@ -25,8 +25,8 @@ const Cards = ()=>{
                 <div className="card shadow-sm border-2">
                 <img src="https://placeholder.shopfinejewelry.com/500x325"/>
                 <div className="card-body">
-                    <h3 className="text-primary">Card Title</h3>
-                    <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <h3 className="text-center">Card Title</h3>
+                    <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
 
                 </div>
@@ -39,8 +39,8 @@ const Cards = ()=>{
                 <div className="card shadow-sm border-2">
                 <img src="https://placeholder.shopfinejewelry.com/500x325"/>
                 <div className="card-body">
-                    <h3 className="text-primary">Card Title</h3>
-                    <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <h3 className="text-center">Card Title</h3>
+                    <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
 
                 </div>
@@ -53,8 +53,8 @@ const Cards = ()=>{
                 <div className="card shadow-sm border-2">
                 <img src="https://placeholder.shopfinejewelry.com/500x325"/>
                 <div className="card-body">
-                    <h3 className="text-primary">Card Title</h3>
-                    <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    <h3 className="text-center">Card Title</h3>
+                    <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
                 </div>
                 <div className="card-footer p-2 text-center">
