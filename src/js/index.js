@@ -6,9 +6,10 @@ import ReactDOM from "react-dom";
 import "../styles/index.css";
 
 //import your own components
-import Jumbo from "./component/jumbo.jsx"
+import Home from "./component/home.jsx";
 
 //render your react application
 window.onload = () => {
     ReactDOM.render(<Jumbo />, document.querySelector("#jumbo"));
+    ReactDOM.render(<Navbar />, document.querySelector("#navbar"));
 }
