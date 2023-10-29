@@ -6,10 +6,10 @@ import ReactDOM from "react-dom";
 import "../styles/index.css";
 
 //import your own components
-import Navbar from "./component/navbar.jsx";
+import Cards from "./component/cards.jsx";
 
 
 //render your react application
 window.onload = () => {
-    ReactDOM.render(<Navbar />, document.querySelector("#navbar"));
+    ReactDOM.render(<Cards />, document.querySelector("#cards"));
 }
