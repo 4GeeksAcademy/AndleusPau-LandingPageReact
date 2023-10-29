@@ -6,7 +6,10 @@ import ReactDOM from "react-dom";
 import "../styles/index.css";
 
 //import your own components
-import Home from "./component/home.jsx";
+import Navbar from "./component/navbar.jsx";
+
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+window.onload = () => {
+    ReactDOM.render(<Navbar />, document.querySelector("#navbar"));
+}
