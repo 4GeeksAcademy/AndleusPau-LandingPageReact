@@ -6,10 +6,10 @@ import ReactDOM from "react-dom";
 import "../styles/index.css";
 
 //import your own components
-import Cards from "./component/cards.jsx";
+import Footer from "./component/footer.jsx";
 
 
 //render your react application
 window.onload = () => {
-    ReactDOM.render(<Cards />, document.querySelector("#cards"));
+    ReactDOM.render(<Footer />, document.querySelector("#footer"));
 }
