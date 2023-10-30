@@ -11,5 +11,4 @@ import Jumbo from "./component/jumbo.jsx"
 //render your react application
 window.onload = () => {
     ReactDOM.render(<Jumbo />, document.querySelector("#jumbo"));
-    ReactDOM.render(<Navbar />, document.querySelector("#navbar"));
 }
