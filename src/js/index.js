@@ -11,5 +11,14 @@ import Cards from "./component/cards.jsx";
 
 //render your react application
 window.onload = () => {
-    ReactDOM.render(<Cards />, document.querySelector("#cards"));
+
+    ReactDOM.render(<Cards 
+        imageUrl ="https://placeholder.shopfinejewelry.com/500x325" 
+        alt = "Imagen de muestra"
+        title = "Card Title"
+        description = "Esta es una descripción de muestra"
+        buttonLink = "#"
+        buttonLabel = "Tell Me More!"/>, document.querySelector("#cards")
+    ); 
+       
 }

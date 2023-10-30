@@ -1,70 +1,29 @@
 import React from "react";
 
 
-const Cards = ()=>{
+const Cards = (props)=>{
     return(
         <div className="container">
-        <div className="row justify-content-center bg-white p-5 mx-0">
-            <div className="row px-5 mt-0 border-bottom pb-5">
-            <div className="col-3 pb-5">
-                <div className="card shadow-sm border-2">
-                <img src="https://placeholder.shopfinejewelry.com/500x325"/>
-                <div className="card-body">
-                    <h3 className="text-center">Card Title</h3>
-                    <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
+            <div className="row justify-content-center bg-white p-5 mx-0">
+                <div className="row px-5 mt-0 border-bottom pb-5">
+                <div className="col-3 pb-5">
+                    <div className="card shadow-sm border-2">
+                        <img src={props.imageUrl} alt={props.alt}/>
+                        <div className="card-body">
+                            <h3 className="text-center">{props.title}</h3>
+                            <p className="text-center">{props.description}</p>
+                        </div>
+                        
+                        <div className="card-footer p-2 text-center">
+                            <a class="btn btn-primary" href={props.buttonLink} role="button">{props.buttonLabel}</a>
+                        </div>                        
+                    </div>
                 </div>
-                <div>
-                <div className="card-footer p-2 text-center">
-                    <button type="button" className="btn btn-primary">Find out more!</button>
+                
                 </div>
-                </div>
-                </div>
-            </div>
-            <div className="col-3">
-                <div className="card shadow-sm border-2">
-                <img src="https://placeholder.shopfinejewelry.com/500x325"/>
-                <div className="card-body">
-                    <h3 className="text-center">Card Title</h3>
-                    <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
-
-                </div>
-                <div className="card-footer p-2 text-center">
-                    <button type="button" className="btn btn-primary">Find out more!</button>
-                </div>
-                </div>
-            </div>
-            <div className="col-3">
-                <div className="card shadow-sm border-2">
-                <img src="https://placeholder.shopfinejewelry.com/500x325"/>
-                <div className="card-body">
-                    <h3 className="text-center">Card Title</h3>
-                    <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
-
-                </div>
-                <div className="card-footer p-2 text-center">
-                    <button type="button" className="btn btn-primary">Find out more!</button>
-                </div>
-                </div>
-            </div>
-            <div className="col-3">
-                <div className="card shadow-sm border-2">
-                <img src="https://placeholder.shopfinejewelry.com/500x325"/>
-                <div className="card-body">
-                    <h3 className="text-center">Card Title</h3>
-                    <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam...</p>
-                </div>
-                <div className="card-footer p-2 text-center">
-                    <button type="button" className="btn btn-primary">Find out more!</button>
-                </div>
-                </div>
-            </div>
             </div>
         </div>
-        </div>
+    
 
     );
 }
